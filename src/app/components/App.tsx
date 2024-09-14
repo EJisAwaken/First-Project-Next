@@ -26,7 +26,8 @@ export default function App() {
     },[tache])
 
     const addTache = () => {
-        setListT([...ListeT, { id: ListeT.length + 1, name: tache }]);
+
+        setListT([...ListeT, { id: ListeT.length + 1, name: tache}]);
 
         setTache("");
     };
